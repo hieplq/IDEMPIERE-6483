@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Equinox
+Bundle-SymbolicName: vn.hieplq.repeatable.annotation.equinox
+Bundle-Version: 1.0.0.qualifier
+Service-Component: OSGI-INF/vn.hieplq.repeatable.annotation.equinox.osgi.component.EquinoxAnnotationColumnCalloutFactory.xml
+Automatic-Module-Name: vn.hieplq.repeatable.annotation.equinox
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Import-Package: org.adempiere.base,
+ org.adempiere.base.annotation,
+ org.compiere.model

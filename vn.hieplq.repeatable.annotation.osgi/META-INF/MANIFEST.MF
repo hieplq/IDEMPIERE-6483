@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Annotation
+Bundle-SymbolicName: vn.hieplq.repeatable.annotation.osgi
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: vn.hieplq.repeatable.annotation
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Import-Package: org.adempiere.base,
+ org.adempiere.base.annotation,
+ org.compiere.model
+Service-Component: OSGI-INF/vn.hieplq.repeatable.annotation.osgi.component.OsgiAnnotationColumnCalloutFactory.xml
